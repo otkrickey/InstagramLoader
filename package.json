@@ -1,0 +1,26 @@
+{
+  "name": "instagramloader",
+  "version": "0.1.0",
+  "description": "XSS tools for instagram.com",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "electron": "^12.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otkrickey/InstagramLoader.git"
+  },
+  "author": "otkrickey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otkrickey/InstagramLoader/issues"
+  },
+  "homepage": "https://github.com/otkrickey/InstagramLoader#readme"
+}
