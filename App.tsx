@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import WebView_Component from './src/views/sample';
+import WebView_Component from './src/screens/sample';
 
 export default class App extends Component {
     render() {

@@ -1,34 +1,29 @@
 {
   "expo": {
-    "name": "react-native",
-    "slug": "react-native",
+    "name": "IGL",
+    "slug": "IGL",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/logo_transparent.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
+    "sdkVersion": "40.0.0",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
+      "package": "com.otkrickey.IGL",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/images/logo_transparent.png",
+        "backgroundColor": "#000000"
       }
-    },
-    "web": {
-      "favicon": "./assets/images/favicon.png"
     }
   }
 }
